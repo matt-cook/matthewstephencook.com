@@ -1,0 +1,67 @@
+{
+  "title": "SESP Social Media Wall",
+  "slug": "SESP-Social-Media-Wall",
+  "order": 7,
+  "thumbnail": "/media/thumbnails/northwestern.jpg",
+  "tags": [
+    "ux design",
+    "ui design",
+    "programming"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **SESP Social Media Wall**\n*Location*: Evanston, Illinois\n*Client*: Northwestern University\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/SESP-Social-Media-Wall/DSC_0056.jpeg",
+      "alt": "SESP Social Media Wall — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/SESP-Social-Media-Wall/Northwestern-3.jpg",
+      "alt": "SESP Social Media Wall — image 2",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/SESP-Social-Media-Wall/Northwestern-4.jpg",
+      "alt": "SESP Social Media Wall — image 3",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/SESP-Social-Media-Wall/Northwestern-7.jpg",
+      "alt": "SESP Social Media Wall — image 4",
+      "width": 1920,
+      "height": 1080,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/SESP-Social-Media-Wall/DSC_0067.jpeg",
+      "alt": "SESP Social Media Wall — image 5",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

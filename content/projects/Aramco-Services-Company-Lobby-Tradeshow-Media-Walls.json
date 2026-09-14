@@ -1,0 +1,95 @@
+{
+  "title": "Aramco Services Company Lobby & Tradeshow Media Walls",
+  "slug": "Aramco-Services-Company-Lobby-Tradeshow-Media-Walls",
+  "order": 4,
+  "thumbnail": "/media/thumbnails/aramco.jpg",
+  "tags": [
+    "ui design",
+    "ux design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": true,
+  "body": "*Project*: **Aramco Services Company Lobby & Tradeshow Media Walls**\n*Location*: Houston, Texas\n*Client*: Aramco Service Company\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/2_Aram.jpg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/3_Aram.jpg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 2",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/4_Aram.jpg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 3",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/2012-10-07-12.30.25.jpg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 4",
+      "width": 2592,
+      "height": 1936,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/20140305-IMG_0799.jpg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 5",
+      "width": 1920,
+      "height": 1080,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/20140305-IMG_0803.jpg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 6",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/lobby.jpeg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 7",
+      "width": 2000,
+      "height": 1333,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/ZEBRADOG_ApexAwards_BusIndGov_Aramco3.jpg",
+      "alt": "Aramco Services Company Lobby & Tradeshow Media Walls — image 8",
+      "width": 1920,
+      "height": 1080,
+      "row": 5,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

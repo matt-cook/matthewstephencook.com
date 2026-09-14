@@ -1,0 +1,32 @@
+{
+  "name": "matthew-cook-static",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Matthew Cook's statically generated portfolio, with Vite, Decap CMS, and PhotoSwipe.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/generate.mjs && vite --host 127.0.0.1",
+    "cms": "decap-server",
+    "dev:cms": "node scripts/dev-cms.mjs",
+    "generate": "node scripts/generate.mjs",
+    "build": "node scripts/generate.mjs && vite build && node scripts/verify.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "photoswipe": "5.4.4"
+  },
+  "devDependencies": {
+    "decap-cms": "3.16.2",
+    "decap-server": "3.11.2",
+    "image-size": "^2.0.2",
+    "markdown-it": "14.1.0",
+    "sanitize-html": "^2.17.0",
+    "sharp": "^0.34.5",
+    "vite": "8.3.0",
+    "yaml": "^2.8.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "UW School of Medicine Digital Signage Display",
+  "slug": "UW-School-of-Medicine-Digital-Signage-Display",
+  "order": 15,
+  "thumbnail": "/media/thumbnails/uw-medicine.jpg",
+  "tags": [
+    "ui design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **UW School of Medicine Digital Signage Display**\n*Location*: Madison, Wisconsin\n*Client*: UW Madison - School of Medicine and Public Health\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/UW-School-of-Medicine-Digital-Signage-Display/IMG_9964.JPG",
+      "alt": "UW School of Medicine Digital Signage Display — image 1",
+      "width": 5184,
+      "height": 3456,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/UW-School-of-Medicine-Digital-Signage-Display/IMG_9962.JPG",
+      "alt": "UW School of Medicine Digital Signage Display — image 2",
+      "width": 5184,
+      "height": 3456,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/UW-School-of-Medicine-Digital-Signage-Display/IMG_9966.JPG",
+      "alt": "UW School of Medicine Digital Signage Display — image 3",
+      "width": 5184,
+      "height": 3456,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

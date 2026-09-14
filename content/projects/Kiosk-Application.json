@@ -1,0 +1,67 @@
+{
+  "title": "Kiosk Application",
+  "slug": "Kiosk-Application",
+  "order": 5,
+  "thumbnail": "/media/thumbnails/kiosk-thumb.jpg",
+  "tags": [
+    "programming",
+    "ui design",
+    "ux design"
+  ],
+  "mediaColumns": 5,
+  "columnGap": 1.5,
+  "galleryLayout": "columns",
+  "galleryColumns": 2,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Kiosk Application**\n*URL*: [https://kiosk.cook.company](https://kiosk.cook.company)\n*Company*: [The Cook Company](/The-Cook-Company/)\n*Description*: Digital signage and interactive installation enablement software. Launch any URL as a configureable, locked down, full screen application on multiple platforms. Used on over 80,000 devices per week worldwide.",
+  "images": [
+    {
+      "image": "/media/Kiosk-Application/instagram.png",
+      "alt": "Kiosk Application — image 1",
+      "width": 1766,
+      "height": 1766,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Kiosk-Application/IMG_20190328_151323.jpg",
+      "alt": "Kiosk Application — image 2",
+      "width": 4032,
+      "height": 3024,
+      "row": 3,
+      "column": 2,
+      "caption": ""
+    },
+    {
+      "image": "/media/Kiosk-Application/IMG_20190327_094357.jpg",
+      "alt": "Kiosk Application — image 3",
+      "width": 4032,
+      "height": 3024,
+      "row": 4,
+      "column": 2,
+      "caption": ""
+    },
+    {
+      "image": "/media/Kiosk-Application/monkey-enterprise.png",
+      "alt": "Kiosk Application — image 4",
+      "width": 1465,
+      "height": 1166,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Kiosk-Application/monkey-free.png",
+      "alt": "Kiosk Application — image 5",
+      "width": 1735,
+      "height": 1026,
+      "row": 5,
+      "column": 2,
+      "caption": ""
+    }
+  ]
+}

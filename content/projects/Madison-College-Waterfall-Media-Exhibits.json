@@ -1,0 +1,86 @@
+{
+  "title": "Madison College Waterfall & Media Exhibits",
+  "slug": "Madison-College-Waterfall-Media-Exhibits",
+  "order": 6,
+  "thumbnail": "/media/thumbnails/madison-college.jpg",
+  "tags": [
+    "ux design",
+    "ui design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Madison College Waterfall & Media Exhibits**\n*Location*: Madison, Wisconsin\n*Client*: Madison Area Technical College\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Madison-College-Waterfall-Media-Exhibits/Madison-College-Digital-Waterfall_0.png",
+      "alt": "Madison College Waterfall & Media Exhibits — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Madison-College-Waterfall-Media-Exhibits/5_MC_0.jpeg",
+      "alt": "Madison College Waterfall & Media Exhibits — image 2",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Madison-College-Waterfall-Media-Exhibits/DSC_5519_0.jpg",
+      "alt": "Madison College Waterfall & Media Exhibits — image 3",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Madison-College-Waterfall-Media-Exhibits/IMG_6569_0.jpeg",
+      "alt": "Madison College Waterfall & Media Exhibits — image 4",
+      "width": 1920,
+      "height": 1080,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Madison-College-Waterfall-Media-Exhibits/IMG_6600_0.jpeg",
+      "alt": "Madison College Waterfall & Media Exhibits — image 5",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Madison-College-Waterfall-Media-Exhibits/IMG_6613_0.jpeg",
+      "alt": "Madison College Waterfall & Media Exhibits — image 6",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Madison-College-Waterfall-Media-Exhibits/4_MC_0.jpeg",
+      "alt": "Madison College Waterfall & Media Exhibits — image 7",
+      "width": 1920,
+      "height": 1080,
+      "row": 5,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

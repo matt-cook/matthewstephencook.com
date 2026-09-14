@@ -1,0 +1,66 @@
+{
+  "title": "UW La Crosse",
+  "slug": "UW-La-Crosse",
+  "order": 17,
+  "thumbnail": "/media/thumbnails/uw-lax.jpg",
+  "tags": [
+    "ux design",
+    "programming"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Veteran’s Hall of Honor Story Station**\n*Location*: La Crosse, Wisconsin\n*Client*: UW La Crosse\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/UW-La-Crosse/UWL_StorySFNL-4.jpg",
+      "alt": "UW La Crosse — image 1",
+      "width": 2000,
+      "height": 1328,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/UW-La-Crosse/UWL_StorySFNL-5.jpg",
+      "alt": "UW La Crosse — image 2",
+      "width": 2000,
+      "height": 1328,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/UW-La-Crosse/UWL_StorySFNL-6.jpg",
+      "alt": "UW La Crosse — image 3",
+      "width": 2000,
+      "height": 1328,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/UW-La-Crosse/UWL_StorySFNL-7.jpg",
+      "alt": "UW La Crosse — image 4",
+      "width": 2000,
+      "height": 1328,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/UW-La-Crosse/UWL_StorySFNL-8.jpg",
+      "alt": "UW La Crosse — image 5",
+      "width": 2000,
+      "height": 1328,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

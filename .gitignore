@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.local
+.generated-routes.json
+/index.html
+/404.html
+/*/index.html
+public/admin/vendor/
+public/admin/config.yml
+public/admin/preview.css
+public/previews/
+public/CNAME
+public/sitemap.xml
+.DS_Store

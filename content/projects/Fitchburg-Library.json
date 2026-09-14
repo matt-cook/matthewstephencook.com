@@ -1,0 +1,41 @@
+{
+  "title": "Fitchburg Library",
+  "slug": "Fitchburg-Library",
+  "order": 13,
+  "thumbnail": "/media/thumbnails/fitchburg-library.jpg",
+  "tags": [
+    "ux design",
+    "ui design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "columns",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Interactive Donor Display**\n*Location*: Fitchburg, Wisconsin\n*Client*: Fitchburg Public Library\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Fitchburg-Library/FitchLibFNL-26.jpg",
+      "alt": "Fitchburg Library — image 1",
+      "width": 4288,
+      "height": 2848,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Fitchburg-Library/FitchLibFNL-33.jpg",
+      "alt": "Fitchburg Library — image 2",
+      "width": 4288,
+      "height": 2848,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

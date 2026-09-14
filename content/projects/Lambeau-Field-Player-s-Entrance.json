@@ -1,0 +1,67 @@
+{
+  "title": "Lambeau Field Player's Entrance",
+  "slug": "Lambeau-Field-Player-s-Entrance",
+  "order": 3,
+  "thumbnail": "/media/thumbnails/packers.jpg",
+  "tags": [
+    "ux design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Lambeau Field Player's Entrance**\n*Location*: Green Bay, Wisconsin\n*Client*: The Green Bay Packers\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Lambeau-Field-Player-s-Entrance/6_PAC.jpeg",
+      "alt": "Lambeau Field Player's Entrance — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Lambeau-Field-Player-s-Entrance/IMG_0547.JPG",
+      "alt": "Lambeau Field Player's Entrance — image 2",
+      "width": 5184,
+      "height": 3456,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Lambeau-Field-Player-s-Entrance/IMG_0565.JPG",
+      "alt": "Lambeau Field Player's Entrance — image 3",
+      "width": 5184,
+      "height": 3456,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Lambeau-Field-Player-s-Entrance/5_PAC.jpeg",
+      "alt": "Lambeau Field Player's Entrance — image 4",
+      "width": 1920,
+      "height": 1080,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Lambeau-Field-Player-s-Entrance/GB-A.png",
+      "alt": "Lambeau Field Player's Entrance — image 5",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

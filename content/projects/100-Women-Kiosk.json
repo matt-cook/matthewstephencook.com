@@ -1,0 +1,58 @@
+{
+  "title": "100 Women Kiosk",
+  "slug": "100-Women-Kiosk",
+  "order": 11,
+  "thumbnail": "/media/thumbnails/sohe.jpg",
+  "tags": [
+    "ux design",
+    "ui design",
+    "programming"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **100 Women Kiosk**\n*Location*: Madison, Wisconsin\n*Client*: UW Madison - School of Human Ecology\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/100-Women-Kiosk/1_SoHe.jpg",
+      "alt": "100 Women Kiosk — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/100-Women-Kiosk/2_SoHe.jpg",
+      "alt": "100 Women Kiosk — image 2",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/100-Women-Kiosk/3_SoHe.jpeg",
+      "alt": "100 Women Kiosk — image 3",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/100-Women-Kiosk/DSC_0881.jpeg",
+      "alt": "100 Women Kiosk — image 4",
+      "width": 426,
+      "height": 640,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

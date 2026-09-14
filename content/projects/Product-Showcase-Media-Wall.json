@@ -1,0 +1,57 @@
+{
+  "title": "Product Showcase Media Wall",
+  "slug": "Product-Showcase-Media-Wall",
+  "order": 10,
+  "thumbnail": "/media/thumbnails/bemis.jpg",
+  "tags": [
+    "ux design",
+    "programming"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Product Showcase Media Wall**\n*Location*: Neenah, Wisconsin\n*Client*: Bemis Company\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Product-Showcase-Media-Wall/IMG_0058.JPG",
+      "alt": "Product Showcase Media Wall — image 1",
+      "width": 5184,
+      "height": 3456,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Product-Showcase-Media-Wall/IMG_0059.JPG",
+      "alt": "Product Showcase Media Wall — image 2",
+      "width": 5184,
+      "height": 3456,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Product-Showcase-Media-Wall/IMG_0062.JPG",
+      "alt": "Product Showcase Media Wall — image 3",
+      "width": 5184,
+      "height": 3456,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Product-Showcase-Media-Wall/IMG_0064.JPG",
+      "alt": "Product Showcase Media Wall — image 4",
+      "width": 5184,
+      "height": 3456,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

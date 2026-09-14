@@ -1,0 +1,49 @@
+{
+  "title": "Wisconsin Business Hall of Fame",
+  "slug": "Wisconsin-Business-Hall-of-Fame",
+  "order": 14,
+  "thumbnail": "/media/thumbnails/junior-achievement.jpg",
+  "tags": [
+    "ux design",
+    "ui design",
+    "programming"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Wisconsin Business Hall of Fame**\n*Location*: Milwaukee, Wisconsin\n*Client*: Junior Achievement\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Wisconsin-Business-Hall-of-Fame/JAOpening_CM-57.jpg",
+      "alt": "Wisconsin Business Hall of Fame — image 1",
+      "width": 4288,
+      "height": 2848,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Wisconsin-Business-Hall-of-Fame/JAOpening_CM-19.jpg",
+      "alt": "Wisconsin Business Hall of Fame — image 2",
+      "width": 4288,
+      "height": 2848,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Wisconsin-Business-Hall-of-Fame/JAOpening_CM-31.jpg",
+      "alt": "Wisconsin Business Hall of Fame — image 3",
+      "width": 4288,
+      "height": 2848,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

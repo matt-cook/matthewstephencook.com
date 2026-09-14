@@ -1,0 +1,104 @@
+{
+  "title": "Town Center Media Walls & Kiosks",
+  "slug": "Town-Center-Media-Walls-Kiosks",
+  "order": 9,
+  "thumbnail": "/media/thumbnails/wid.jpg",
+  "tags": [
+    "ux design",
+    "ui design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 8,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Town Center Media Walls & Kiosks**\n*Location*: Madison, Wisconsin\n*Client*: Wisconsin Institute for Discovery\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)\n*Awards*:\n2011 DSA Industry Excellence Award, 2012 DSE Apex Award - Healthcare & Education - Gold, 2012 DSE Best of Show",
+  "images": [
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/0_WID.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/3_WID.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 2",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/DSC_0085.jpeg",
+      "alt": "Town Center Media Walls & Kiosks — image 3",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/2_WID.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 4",
+      "width": 1920,
+      "height": 1080,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/ZD_WID_mediaPR-7.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 5",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/ZD_WID_mediaPR-10.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 6",
+      "width": 3548,
+      "height": 2365,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/IMG_0019.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 7",
+      "width": 1920,
+      "height": 1080,
+      "row": 5,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/ZD_WID_mediaPR-11.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 8",
+      "width": 4368,
+      "height": 2912,
+      "row": 6,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Town-Center-Media-Walls-Kiosks/ZD_WID_mediaPR-12.jpg",
+      "alt": "Town Center Media Walls & Kiosks — image 9",
+      "width": 4288,
+      "height": 2848,
+      "row": 6,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

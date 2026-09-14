@@ -1,0 +1,82 @@
+# Generated into public/admin/config.yml by npm run generate.
+# Configure repository and authentication using .env.local or Actions variables.
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY
+  branch: main
+  squash_merges: true
+local_backend: true
+publish_mode: simple
+media_folder: public/media/uploads
+public_folder: /media/uploads
+site_url: https://matthewstephencook.com
+display_url: https://matthewstephencook.com
+logo_url: ../favicon.ico
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+collections:
+  - name: settings
+    label: Site settings
+    files:
+      - name: site
+        label: Header, contact, and metadata
+        file: content/site.json
+        format: json
+        fields:
+          - {label: Site title, name: title, widget: string}
+          - {label: Header text, name: heading, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: Canonical site URL, name: url, widget: string}
+          - {label: Email, name: email, widget: string}
+          - {label: GitHub profile URL, name: github, widget: string}
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: content/projects
+    format: json
+    extension: json
+    create: true
+    slug: '{{fields.slug}}'
+    identifier_field: title
+    summary: '{{order}} — {{title}}'
+    sortable_fields: [order, title]
+    view_filters:
+      - {label: UX design, field: tags, pattern: ux design}
+      - {label: UI design, field: tags, pattern: ui design}
+      - {label: Programming, field: tags, pattern: programming}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - label: URL slug
+        name: slug
+        widget: string
+        pattern: ['^[a-zA-Z0-9][a-zA-Z0-9-]*$', 'Use letters, numbers, and hyphens. Preserve existing slugs to keep old links working.']
+      - {label: Display order, name: order, widget: number, value_type: int, min: 1, default: 21}
+      - {label: Homepage thumbnail, name: thumbnail, widget: image}
+      - {label: Responsibility tags, name: tags, widget: list, default: [], required: false}
+      - {label: Project details, name: body, widget: markdown, modes: [rich_text, raw], hint: 'Italic labels, bold project names, and linked responsibilities match the original. Use a line break between fields.'}
+      - {label: Gallery width out of 12, name: mediaColumns, widget: number, value_type: int, min: 1, max: 11, default: 7}
+      - {label: Column gap, name: columnGap, widget: number, value_type: float, min: 0, default: 1.5}
+      - label: Gallery layout
+        name: galleryLayout
+        widget: select
+        options:
+          - {label: Aligned rows, value: rows}
+          - {label: Independent columns, value: columns}
+        default: rows
+      - {label: Number of gallery columns, name: galleryColumns, widget: number, value_type: int, min: 1, max: 4, default: 1, hint: 'Only used with Independent columns.'}
+      - {label: Gallery gap, name: galleryGap, widget: number, value_type: float, min: 0, default: 1.5}
+      - {label: Note below gallery, name: galleryNote, widget: markdown, required: false, default: ''}
+      - {label: Show ZEBRADOG projects below, name: relatedProjects, widget: boolean, default: false}
+      - {label: Extra space before footer, name: trailingBreak, widget: boolean, default: true}
+      - name: images
+        label: Gallery images
+        widget: list
+        summary: '{{fields.alt}}'
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image description, name: alt, widget: string}
+          - {label: Caption, name: caption, widget: string, required: false, default: ''}
+          - {label: Row, name: row, widget: number, value_type: int, min: 1, default: 1, hint: 'Images with the same row number appear side by side. Increase the number to start a new row.'}
+          - {label: Column, name: column, widget: number, value_type: int, min: 1, max: 4, default: 1, hint: 'For Independent columns only.'}

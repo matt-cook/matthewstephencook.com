@@ -1,0 +1,50 @@
+{
+  "title": "Hall Arts Media Wall",
+  "slug": "Hall-Arts-Media-Wall",
+  "order": 2,
+  "thumbnail": "/media/thumbnails/hall-group.jpg",
+  "tags": [
+    "ui design",
+    "ux design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 7,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": true,
+  "body": "*Project*: **Hall Arts Media Wall**\n*Location*: Dallas, Texas\n*Client*: The Hall Group\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Hall-Arts-Media-Wall/IMG_20160513_115356.jpg",
+      "alt": "Hall Arts Media Wall — image 1",
+      "width": 4032,
+      "height": 3024,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Hall-Arts-Media-Wall/IMG_20160513_083310.jpg",
+      "alt": "Hall Arts Media Wall — image 2",
+      "width": 4032,
+      "height": 3024,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Hall-Arts-Media-Wall/IMG_20160513_083555.jpg",
+      "alt": "Hall Arts Media Wall — image 3",
+      "width": 4032,
+      "height": 3024,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

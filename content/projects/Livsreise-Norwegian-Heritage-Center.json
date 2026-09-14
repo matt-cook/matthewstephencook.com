@@ -1,0 +1,86 @@
+{
+  "title": "Livsreise Norwegian Heritage Center",
+  "slug": "Livsreise-Norwegian-Heritage-Center",
+  "order": 1,
+  "thumbnail": "/media/thumbnails/livsreise.jpg",
+  "tags": [
+    "ui design",
+    "ux design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 7,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": true,
+  "body": "*Project*: **Livsreise Norwegian Heritage Center**\n*Location*: Stoughton, Wisconsin\n*Client*: The Bryant Foundation\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/), hardware design\n*Awards*: 2016 DSE Apex Award - Immersive Environment - Bronze",
+  "images": [
+    {
+      "image": "/media/Livsreise-Norwegian-Heritage-Center/10.jpg",
+      "alt": "Livsreise Norwegian Heritage Center — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Livsreise-Norwegian-Heritage-Center/11.jpeg",
+      "alt": "Livsreise Norwegian Heritage Center — image 2",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Livsreise-Norwegian-Heritage-Center/4.jpg",
+      "alt": "Livsreise Norwegian Heritage Center — image 3",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Livsreise-Norwegian-Heritage-Center/2.jpg",
+      "alt": "Livsreise Norwegian Heritage Center — image 4",
+      "width": 1920,
+      "height": 1080,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Livsreise-Norwegian-Heritage-Center/6.jpg",
+      "alt": "Livsreise Norwegian Heritage Center — image 5",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Livsreise-Norwegian-Heritage-Center/5.jpg",
+      "alt": "Livsreise Norwegian Heritage Center — image 6",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Livsreise-Norwegian-Heritage-Center/18.jpg",
+      "alt": "Livsreise Norwegian Heritage Center — image 7",
+      "width": 1920,
+      "height": 1080,
+      "row": 5,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Interactive Lobby Exhibits",
+  "slug": "Interactive-Lobby-Exhibits",
+  "order": 8,
+  "thumbnail": "/media/thumbnails/aurora.jpg",
+  "tags": [
+    "ux design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 7,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Interactive Lobby Exhibits**\n*Location*: Milwaukee, Wisconsin\n*Client*: Aurora St. Luke’s Medical Center\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Interactive-Lobby-Exhibits/IMG_1741.jpg",
+      "alt": "Interactive Lobby Exhibits — image 1",
+      "width": 1920,
+      "height": 1080,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Interactive-Lobby-Exhibits/IMG_0222.jpg",
+      "alt": "Interactive Lobby Exhibits — image 2",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Interactive-Lobby-Exhibits/IMG_0225.jpg",
+      "alt": "Interactive Lobby Exhibits — image 3",
+      "width": 1920,
+      "height": 1080,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Interactive-Lobby-Exhibits/IMG_0232.jpg",
+      "alt": "Interactive Lobby Exhibits — image 4",
+      "width": 1920,
+      "height": 1080,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Interactive-Lobby-Exhibits/IMG_0234.jpg",
+      "alt": "Interactive Lobby Exhibits — image 5",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Interactive-Lobby-Exhibits/IMG_1747.jpg",
+      "alt": "Interactive Lobby Exhibits — image 6",
+      "width": 1920,
+      "height": 1080,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Interactive-Lobby-Exhibits/IMG_1761.jpg",
+      "alt": "Interactive Lobby Exhibits — image 7",
+      "width": 1920,
+      "height": 1080,
+      "row": 5,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

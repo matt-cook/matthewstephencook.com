@@ -1,0 +1,45 @@
+{
+  "title": "Wisconsin School of Business Donor Display",
+  "slug": "Wisconsin-School-of-Business-Donor-Display",
+  "order": 20,
+  "thumbnail": "/media/thumbnails/uwsob.jpg",
+  "tags": [],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Wisconsin School of Business Donor Display**\n*Location*: Madison, Wisconsin\n*Client*: UW Madison - Wisconsin School of Business\n*Company*: Vivid Media\nResponsibilities: [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/Wisconsin-School-of-Business-Donor-Display/uw1.png",
+      "alt": "Wisconsin School of Business Donor Display — image 1",
+      "width": 1418,
+      "height": 971,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Wisconsin-School-of-Business-Donor-Display/uw2.png",
+      "alt": "Wisconsin School of Business Donor Display — image 2",
+      "width": 1418,
+      "height": 971,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/Wisconsin-School-of-Business-Donor-Display/uw3.png",
+      "alt": "Wisconsin School of Business Donor Display — image 3",
+      "width": 1418,
+      "height": 971,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

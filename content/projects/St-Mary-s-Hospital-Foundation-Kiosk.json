@@ -1,0 +1,32 @@
+{
+  "title": "St. Mary's Hospital Foundation Kiosk",
+  "slug": "St-Mary-s-Hospital-Foundation-Kiosk",
+  "order": 16,
+  "thumbnail": "/media/thumbnails/ssm.jpg",
+  "tags": [
+    "ux design",
+    "ui design",
+    "programming",
+    "zebradog"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Project*: **Foundation Kiosk**\n*Location*: Madison, Wisconsin\n*Client*: St. Mary’s Hospital\n*Company*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilites*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "images": [
+    {
+      "image": "/media/St-Mary-s-Hospital-Foundation-Kiosk/DonorDetail.jpg",
+      "alt": "St. Mary's Hospital Foundation Kiosk — image 1",
+      "width": 1800,
+      "height": 1330,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}

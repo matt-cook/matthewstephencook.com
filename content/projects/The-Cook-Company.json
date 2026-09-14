@@ -1,0 +1,50 @@
+{
+  "title": "The Cook Company",
+  "slug": "The-Cook-Company",
+  "order": 19,
+  "thumbnail": "/media/thumbnails/cook-thumb.jpg",
+  "tags": [
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "mediaColumns": 6,
+  "columnGap": 1.25,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": false,
+  "body": "*Company*: **The Cook Company**\n*URL*: [https://cook.company](https://cook.company)\n*Year*: 2016 - Present\n*Role*: Owner\n*Responsibilities*: Development and support of the [Kiosk application](/Kiosk-Application/) as well as contract work for a wide variety of digital experiences.",
+  "images": [
+    {
+      "image": "/media/The-Cook-Company/IMG_20181127_171113.jpg",
+      "alt": "The Cook Company — image 1",
+      "width": 4032,
+      "height": 3024,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/The-Cook-Company/IMG_20190328_162744.jpg",
+      "alt": "The Cook Company — image 2",
+      "width": 4032,
+      "height": 3024,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/The-Cook-Company/IMG_20190709_111441.jpg",
+      "alt": "The Cook Company — image 3",
+      "width": 4032,
+      "height": 3024,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}
