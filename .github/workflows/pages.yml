@@ -31,7 +31,8 @@ jobs:
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}/
           SITE_URL: ${{ steps.pages.outputs.base_url }}
-          CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
+          # Production uses a custom-domain root even if Pages reports the repository path.
+          CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN || 'matthewstephencook.com' }}
           CMS_REPOSITORY: ${{ github.repository }}
           CMS_BRANCH: main
           CMS_AUTH_BASE_URL: ${{ vars.CMS_AUTH_BASE_URL }}

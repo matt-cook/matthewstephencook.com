@@ -42,9 +42,9 @@ The original content generates 29 HTML files inside the ignored `build/` directo
 2. Under **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
 3. Push to `main`, or run **Build and deploy GitHub Pages** from the Actions tab.
 
-The included `.github/workflows/pages.yml` installs dependencies, builds, verifies, and deploys `dist/`. It obtains the repository URL and Pages path from GitHub, so both `username.github.io/repository/` and a domain root are supported. Each CMS commit to `main` triggers another build.
+The included `.github/workflows/pages.yml` installs dependencies, builds, verifies, and deploys `dist/`. Production defaults to `matthewstephencook.com`, which forces `/` for asset and page paths even if GitHub Pages reports the repository path. Each CMS commit to `main` triggers another build.
 
-For a custom domain, configure the domain and DNS in GitHub Pages, then add a repository Actions variable named `CUSTOM_DOMAIN`, such as `matthewstephencook.com`. The build writes `CNAME` and uses `/` for asset and page paths. This project does not change DNS or the existing live website.
+To use a different custom domain, configure the domain and DNS in GitHub Pages, then set the repository Actions variable `CUSTOM_DOMAIN` to that hostname. The build writes `CNAME` and uses `/` for asset and page paths. To deploy a fork at `username.github.io/repository/`, remove the production-domain fallback from the workflow and leave `CUSTOM_DOMAIN` unset; the build then uses the URL and path supplied by GitHub Pages.
 
 See Vite's [GitHub Pages deployment documentation](https://vite.dev/guide/static-deploy#github-pages).
 
