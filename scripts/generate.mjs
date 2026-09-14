@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync, unlinkSync, renameSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync, unlinkSync, renameSync, rmdirSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { imageSize } from 'image-size';
@@ -9,6 +9,7 @@ import YAML from 'yaml';
 import { documentHtml, tagSlug, escapeHtml } from '../src/render.js';
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+export const buildRoot = path.join(root, 'build');
 const readJson = file => JSON.parse(readFileSync(path.join(root, file), 'utf8'));
 const write = (file, text) => { const target = path.join(root, file); mkdirSync(path.dirname(target), { recursive: true }); writeFileSync(target, text); };
 export const normalizeBase = value => `/${String(value || '').split('/').filter(Boolean).join('/')}${String(value || '').split('/').filter(Boolean).length ? '/' : ''}`;
@@ -83,12 +84,16 @@ export async function generate() {
     { file: '404.html', slug: null, notFound: true }
   ];
   // Remove only known generated HTML. All authored content stays in content/.
-  if (existsSync(path.join(root, '.generated-routes.json'))) {
-    for (const old of readJson('.generated-routes.json').files) {
-      if (!routes.some(route => route.file === old) && /^(?:[a-zA-Z0-9-]+\/)?(?:index|404)\.html$/.test(old) && existsSync(path.join(root, old))) unlinkSync(path.join(root, old));
+  if (existsSync(path.join(buildRoot, '.generated-routes.json'))) {
+    for (const old of readJson('build/.generated-routes.json').files) {
+      if (!routes.some(route => route.file === old) && /^(?:[a-zA-Z0-9-]+\/)?(?:index|404)\.html$/.test(old) && existsSync(path.join(buildRoot, old))) {
+        unlinkSync(path.join(buildRoot, old));
+        const directory = path.dirname(path.join(buildRoot, old));
+        if (directory !== buildRoot && readdirSync(directory).length === 0) rmdirSync(directory);
+      }
     }
   }
-  for (const route of routes) write(route.file, documentHtml({ site, projects, base, siteUrl, ...route }));
+  for (const route of routes) write(`build/${route.file}`, documentHtml({ site, projects, base, siteUrl, ...route }));
   const config = YAML.parse(readFileSync(path.join(root, 'cms/config.yml'), 'utf8'));
   config.backend.repo = env.CMS_REPOSITORY || 'YOUR_GITHUB_USERNAME/YOUR_REPOSITORY';
   config.backend.branch = env.CMS_BRANCH || 'main';
@@ -104,11 +109,11 @@ export async function generate() {
   else if (existsSync(path.join(root, 'public/CNAME'))) unlinkSync(path.join(root, 'public/CNAME'));
   write('public/.nojekyll', '');
   write('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.filter(r => r.slug !== null).map(r => `<url><loc>${escapeHtml(siteUrl)}/${r.slug ? `${r.slug}/` : ''}</loc></url>`).join('')}</urlset>\n`);
-  write('.generated-routes.json', JSON.stringify({ base, files: routes.map(r => r.file), projects: projects.length, images: projects.reduce((sum, p) => sum + p.images.length, 0) }, null, 2));
+  write('build/.generated-routes.json', JSON.stringify({ base, files: routes.map(r => r.file), projects: projects.length, images: projects.reduce((sum, p) => sum + p.images.length, 0) }, null, 2));
   return { base, files: routes.map(route => route.file), projects: projects.length };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const result = await generate();
-  console.log(`Generated ${result.files.length} HTML pages from ${result.projects} projects (base ${result.base}).`);
+  console.log(`Generated ${result.files.length} HTML pages in build/ from ${result.projects} projects (base ${result.base}).`);
 }

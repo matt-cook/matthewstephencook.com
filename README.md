@@ -34,11 +34,11 @@ npm run preview
 
 Open <http://127.0.0.1:4173/>. Upload the contents of `dist/` when deploying manually. The build checks every generated page for missing local links and assets, and checks that the CMS and Pages support files are present. `npm run check` repeats those checks on an existing build.
 
-The original content generates 29 HTML files: the homepage, 20 project pages, seven filter pages, and a 404 page. Every project has its own `Slug/index.html`, so direct links work without a client-side router. Content and image links remain usable without JavaScript; JavaScript enables the lightbox and the exact viewport-based type scale.
+The original content generates 29 HTML files inside the ignored `build/` directory: the homepage, 20 project pages, seven filter pages, and a 404 page. Vite serves `build/` during development and bundles it into the ignored `dist/` directory for deployment. Source code stays in `src/`, editable content stays in `content/`, and static assets stay in `public/`. Both `npm run dev:cms` and `npm run build` generate routes automatically; no generated HTML needs to be committed. Every project still deploys at `Slug/index.html`, so existing URLs and direct links work without a client-side router. Content and image links remain usable without JavaScript; JavaScript enables the lightbox and the exact viewport-based type scale.
 
 ## Deploy to GitHub Pages
 
-1. Create a GitHub repository and commit this project's source files to its `main` branch. Include `public/media/` and `package-lock.json`; do not commit `node_modules/` or `dist/`.
+1. Create a GitHub repository and commit this project's source files to its `main` branch. Include `public/media/` and `package-lock.json`; do not commit `node_modules/`, `build/`, or `dist/`.
 2. Under **Settings → Pages → Build and deployment**, choose **GitHub Actions**.
 3. Push to `main`, or run **Build and deploy GitHub Pages** from the Actions tab.
 

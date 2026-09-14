@@ -2,7 +2,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const manifest = JSON.parse(readFileSync(path.join(root, '.generated-routes.json'), 'utf8'));
+const manifest = JSON.parse(readFileSync(path.join(root, 'build/.generated-routes.json'), 'utf8'));
 const dist = path.join(root, 'dist');
 const failures = [];
 for (const file of [...manifest.files, 'admin/index.html']) {
