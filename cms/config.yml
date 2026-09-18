@@ -50,6 +50,7 @@ collections:
       - {label: Front-end Engineering, field: tags, pattern: Front-end Engineering}
       - {label: Cloud Engineering, field: tags, pattern: Cloud Engineering}
       - {label: Compliance Review, field: tags, pattern: Compliance Review}
+      - {label: AI Pipeline Engineering, field: tags, pattern: AI Pipeline Engineering}
     fields:
       - {label: Title, name: title, widget: string}
       - label: URL slug
@@ -59,6 +60,15 @@ collections:
       - {label: Display order, name: order, widget: number, value_type: int, min: 1, default: 21}
       - {label: Homepage thumbnail, name: thumbnail, widget: image}
       - {label: Thumbnail logo, name: thumbnailLogo, widget: image, required: false, default: ''}
+      - label: Thumbnail logo tone
+        name: thumbnailLogoTone
+        widget: select
+        required: false
+        default: dark
+        hint: 'Select Light for a white logo; the photo is darkened to keep it readable.'
+        options:
+          - {label: Dark, value: dark}
+          - {label: Light, value: light}
       - {label: Responsibility tags, name: tags, widget: list, default: [], required: false}
       - {label: Project details, name: body, widget: markdown, modes: [rich_text, raw], hint: 'Italic labels, bold project names, and linked responsibilities match the original. Use a line break between fields.'}
       - {label: Gallery width out of 12, name: mediaColumns, widget: number, value_type: int, min: 1, max: 11, default: 7}
