@@ -46,6 +46,7 @@ collections:
       - {label: UX Design, field: tags, pattern: UX Design}
       - {label: UI Design, field: tags, pattern: UI Design}
       - {label: Software Engineering, field: tags, pattern: Software Engineering}
+      - {label: System Design, field: tags, pattern: System Design}
     fields:
       - {label: Title, name: title, widget: string}
       - label: URL slug
@@ -54,6 +55,7 @@ collections:
         pattern: ['^[a-zA-Z0-9][a-zA-Z0-9-]*$', 'Use letters, numbers, and hyphens. Preserve existing slugs to keep old links working.']
       - {label: Display order, name: order, widget: number, value_type: int, min: 1, default: 21}
       - {label: Homepage thumbnail, name: thumbnail, widget: image}
+      - {label: Thumbnail logo, name: thumbnailLogo, widget: image, required: false, default: ''}
       - {label: Responsibility tags, name: tags, widget: list, default: [], required: false}
       - {label: Project details, name: body, widget: markdown, modes: [rich_text, raw], hint: 'Italic labels, bold project names, and linked responsibilities match the original. Use a line break between fields.'}
       - {label: Gallery width out of 12, name: mediaColumns, widget: number, value_type: int, min: 1, max: 11, default: 7}

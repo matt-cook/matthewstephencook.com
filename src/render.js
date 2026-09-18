@@ -17,8 +17,8 @@ function richText(text, base) {
 
 export function thumbnails(projects, base) {
   return `<div class="thumbnails" aria-label="Projects">${projects.map((p, index) => `
-    <a class="thumbnail" href="${pagePath(p.slug, base)}" aria-label="${escapeHtml(p.title)}">
-      <div class="thumb-image"><img src="${assetPath(p.thumbnail, base)}" alt="" width="1136" height="640" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async"></div>
+    <a class="thumbnail${p.thumbnailLogo ? ' thumbnail--branded' : ''}" href="${pagePath(p.slug, base)}" aria-label="${escapeHtml(p.title)}">
+      <div class="thumb-image"><img src="${assetPath(p.thumbnail, base)}" alt="" width="1136" height="640" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async">${p.thumbnailLogo ? `<img class="thumb-logo" src="${escapeHtml(assetPath(p.thumbnailLogo, base))}" alt="" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async">` : ''}</div>
       <span class="thumb-title"><span>${escapeHtml(p.title)}</span></span>
     </a>`).join('')}</div>`;
 }
