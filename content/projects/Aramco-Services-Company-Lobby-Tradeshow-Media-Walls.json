@@ -4,9 +4,9 @@
   "order": 4,
   "thumbnail": "/media/thumbnails/aramco.jpg",
   "tags": [
-    "ui design",
-    "ux design",
-    "programming",
+    "UI Design",
+    "UX Design",
+    "Software Engineering",
     "zebradog"
   ],
   "mediaColumns": 6,
@@ -17,7 +17,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "*Project*: **Aramco Services Company Lobby & Tradeshow Media Walls**\n*Location*: Houston, Texas\n*Client*: Aramco Service Company\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)\n*Technology*:\nChristie MicroTile, Float4 RealMotion, WebGL, Drupal 7, Node.js",
+  "body": "*Project*: **Aramco Services Company Lobby & Tradeshow Media Walls**\n*Location*: Houston, Texas\n*Client*: Aramco Service Company\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)\n*Technology*:\nChristie MicroTile, Float4 RealMotion, WebGL, Drupal 7, Node.js",
   "images": [
     {
       "image": "/media/Aramco-Services-Company-Lobby-Tradeshow-Media-Walls/2_Aram.jpg",

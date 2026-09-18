@@ -4,9 +4,9 @@
   "order": 16,
   "thumbnail": "/media/thumbnails/ssm.jpg",
   "tags": [
-    "ux design",
-    "ui design",
-    "programming",
+    "UX Design",
+    "UI Design",
+    "Software Engineering",
     "zebradog"
   ],
   "mediaColumns": 6,
@@ -17,7 +17,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Foundation Kiosk**\n*Location*: Madison, Wisconsin\n*Client*: St. Mary’s Hospital\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[ux design](/ux-design/), [ui design](/ui-design/), [programming](/programming/)",
+  "body": "*Project*: **Foundation Kiosk**\n*Location*: Madison, Wisconsin\n*Client*: St. Mary’s Hospital\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)",
   "images": [
     {
       "image": "/media/St-Mary-s-Hospital-Foundation-Kiosk/DonorDetail.jpg",

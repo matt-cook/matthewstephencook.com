@@ -4,9 +4,9 @@
   "order": 5,
   "thumbnail": "/media/thumbnails/kiosk-thumb.jpg",
   "tags": [
-    "programming",
-    "ui design",
-    "ux design"
+    "Software Engineering",
+    "UI Design",
+    "UX Design"
   ],
   "mediaColumns": 5,
   "columnGap": 1.5,

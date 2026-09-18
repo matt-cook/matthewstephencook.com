@@ -43,9 +43,9 @@ collections:
     summary: '{{order}} — {{title}}'
     sortable_fields: [order, title]
     view_filters:
-      - {label: UX design, field: tags, pattern: ux design}
-      - {label: UI design, field: tags, pattern: ui design}
-      - {label: Programming, field: tags, pattern: programming}
+      - {label: UX Design, field: tags, pattern: UX Design}
+      - {label: UI Design, field: tags, pattern: UI Design}
+      - {label: Software Engineering, field: tags, pattern: Software Engineering}
     fields:
       - {label: Title, name: title, widget: string}
       - label: URL slug
