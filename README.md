@@ -68,7 +68,7 @@ For local configuration or a manual deployment, copy `.env.example` to `.env.loc
 
 - **Site settings:** header, title, description, email, and GitHub link live in `content/site.json`.
 - **Projects:** one JSON file per project in `content/projects/`. Lower display-order numbers appear first. Preserve existing URL slugs to keep incoming links working.
-- **Project details:** Markdown supports the original italic labels, bold names, links, and line breaks. Internal links should start at `/`, such as `/ZEBRADOG/`; the build adds the configured Pages base path.
+- **Project details:** Use a level-two heading (`##`) for the project name, an italic location line, and bold field labels with values on the same line. Separate fields with line breaks. Internal links should start at `/`, such as `/ZEBRADOG/`; the build adds the configured Pages base path.
 - **Images:** choose a thumbnail and add or reorder gallery images in Decap. Uploads go into `public/media/uploads/`. Dimensions are read automatically during generation.
 - **Aligned rows:** images with the same row number share a row, sized in proportion to their original dimensions. Increment the number for a new row.
 - **Independent columns:** select the number of columns, then assign each image a column. This preserves the Kiosk Application gallery layout. Lightbox navigation follows the image list order.

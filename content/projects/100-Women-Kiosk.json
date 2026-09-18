@@ -6,6 +6,7 @@
   "tags": [
     "UX Design",
     "UI Design",
+    "System Design",
     "Software Engineering"
   ],
   "mediaColumns": 6,
@@ -16,7 +17,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **100 Women Kiosk**\n*Location*: Madison, Wisconsin\n*Client*: UW Madison - School of Human Ecology\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)",
+  "body": "## 100 Women Kiosk\n\n*Madison, Wisconsin*\n**Client:** UW Madison - School of Human Ecology\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)",
   "images": [
     {
       "image": "/media/100-Women-Kiosk/1_SoHe.jpg",

@@ -5,6 +5,7 @@
   "thumbnail": "/media/thumbnails/uw-lax.jpg",
   "tags": [
     "UX Design",
+    "System Design",
     "Software Engineering"
   ],
   "mediaColumns": 6,
@@ -15,7 +16,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Veteran’s Hall of Honor Story Station**\n*Location*: La Crosse, Wisconsin\n*Client*: UW La Crosse\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [Software Engineering](/software-engineering/)",
+  "body": "## Veteran’s Hall of Honor Story Station\n\n*La Crosse, Wisconsin*\n**Client:** UW La Crosse\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)",
   "images": [
     {
       "image": "/media/UW-La-Crosse/UWL_StorySFNL-4.jpg",

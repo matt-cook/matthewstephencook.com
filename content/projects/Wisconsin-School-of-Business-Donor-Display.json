@@ -3,7 +3,9 @@
   "slug": "Wisconsin-School-of-Business-Donor-Display",
   "order": 24,
   "thumbnail": "/media/thumbnails/uwsob.jpg",
-  "tags": [],
+  "tags": [
+    "System Design"
+  ],
   "mediaColumns": 6,
   "columnGap": 1.5,
   "galleryLayout": "rows",
@@ -12,7 +14,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Wisconsin School of Business Donor Display**\n*Location*: Madison, Wisconsin\n*Client*: UW Madison - Wisconsin School of Business\n*Studio*: Vivid Media\nResponsibilities: [UI Design](/ui-design/), [Software Engineering](/software-engineering/)",
+  "body": "## Wisconsin School of Business Donor Display\n\n*Madison, Wisconsin*\n**Client:** UW Madison - Wisconsin School of Business\n**Studio:** Vivid Media\n**Responsibilities:** [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)",
   "images": [
     {
       "image": "/media/Wisconsin-School-of-Business-Donor-Display/uw1.png",

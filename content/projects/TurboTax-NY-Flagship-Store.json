@@ -9,7 +9,8 @@
   "thumbnailOverlayColor": "#D52B1E",
   "tags": [
     "System Design",
-    "Software Engineering"
+    "Software Engineering",
+    "Compliance"
   ],
   "mediaColumns": 7,
   "columnGap": 1.5,
@@ -19,7 +20,7 @@
   "galleryNote": "<small>Photo copyright Ryan Gobuty</small>",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "*Project*: **TurboTax NY Flagship Store**\n*Location*: New York, New York\n*Client*: Intuit\n*Studio*: Gensler\n*Role*: Creative Technology Lead, Software\n*Responsibilities*:\n[System Design](/system-design/), [Software Engineering](/software-engineering/)\n*Technology*:\nTypeScript, Payload CMS, BrightSign, Unity, React\n*Press Release*: [TurboTax NYC Flagship — Intuit](https://investors.intuit.com/news-events/press-releases/detail/1294/intuit-turbotax-opens-nyc-flagship-uniting-ai-and-human-expertise-to-reinvent-in-person-tax-filing-nationwide)",
+  "body": "## TurboTax NY Flagship Store\n\n*New York, New York*\n**Client:** Intuit\n**Studio:** Gensler\n**Role:** Creative Technology Lead, Software\n**Responsibilities:** [System Design](/system-design/), [Software Engineering](/software-engineering/), [Compliance](/compliance/)\n**Technology:** TypeScript, Payload CMS, BrightSign, Unity, React\n**Press Release:** [TurboTax NYC Flagship — Intuit](https://investors.intuit.com/news-events/press-releases/detail/1294/intuit-turbotax-opens-nyc-flagship-uniting-ai-and-human-expertise-to-reinvent-in-person-tax-filing-nationwide)",
   "images": [
     {
       "image": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-exterior.png",

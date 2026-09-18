@@ -5,6 +5,7 @@
   "thumbnail": "/media/thumbnails/packers.jpg",
   "tags": [
     "UX Design",
+    "System Design",
     "Software Engineering",
     "zebradog"
   ],
@@ -16,7 +17,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Lambeau Field Player's Entrance**\n*Location*: Green Bay, Wisconsin\n*Client*: The Green Bay Packers\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [Software Engineering](/software-engineering/)\n*Technology*:\nChristie MicroTile, WebGL, PHP, Drupal 7, Microsoft Kinect, OpenTSPS, OpenFrameworks, C++",
+  "body": "## Lambeau Field Player's Entrance\n\n*Green Bay, Wisconsin*\n**Client:** The Green Bay Packers\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)\n**Technology:** Christie MicroTile, WebGL, PHP, Drupal 7, Microsoft Kinect, OpenTSPS, OpenFrameworks, C++",
   "images": [
     {
       "image": "/media/Lambeau-Field-Player-s-Entrance/6_PAC.jpeg",

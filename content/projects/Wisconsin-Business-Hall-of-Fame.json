@@ -6,6 +6,7 @@
   "tags": [
     "UX Design",
     "UI Design",
+    "System Design",
     "Software Engineering"
   ],
   "mediaColumns": 6,
@@ -16,7 +17,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Wisconsin Business Hall of Fame**\n*Location*: Milwaukee, Wisconsin\n*Client*: Junior Achievement\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)",
+  "body": "## Wisconsin Business Hall of Fame\n\n*Milwaukee, Wisconsin*\n**Client:** Junior Achievement\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)",
   "images": [
     {
       "image": "/media/Wisconsin-Business-Hall-of-Fame/JAOpening_CM-57.jpg",

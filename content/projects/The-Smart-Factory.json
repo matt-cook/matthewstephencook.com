@@ -10,9 +10,8 @@
   "thumbnailPhotoBrightness": 1.35,
   "tags": [
     "System Design",
-    "Front-end Engineering",
-    "Cloud Engineering",
-    "Compliance Review"
+    "Software Engineering",
+    "Compliance"
   ],
   "mediaColumns": 7,
   "columnGap": 1.5,
@@ -22,7 +21,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "*Project*: **The Smart Factory**\n*Location*: Wichita, Kansas\n*Client*: Deloitte US\n*Studio*: Gensler\n*Role*: Creative Technology Lead, Software\n*Responsibilities*:\n[System Design](/system-design/), [Front-end Engineering](/front-end-engineering/), [Cloud Engineering](/cloud-engineering/), [Compliance Review](/compliance-review/)\n*Technology*:\nTypeScript, React, AWS, Pixera, MongoDB\n*Awards*: Communication Arts, Interactive Design Competition, Environmental Category, Winner, 2025\n*Case Study*: [The Smart Factory — Gensler](https://dxd.gensler.com/case-studies/thesmartfactory)",
+  "body": "## The Smart Factory\n\n*Wichita, Kansas*\n**Client:** Deloitte US\n**Studio:** Gensler\n**Role:** Creative Technology Lead, Software\n**Responsibilities:** [System Design](/system-design/), [Software Engineering](/software-engineering/), [Compliance](/compliance/)\n**Technology:** TypeScript, React, AWS, Pixera, MongoDB\n**Awards:** Communication Arts, Interactive Design Competition, Environmental Category, Winner, 2025\n**Case Study:** [The Smart Factory — Gensler](https://dxd.gensler.com/case-studies/thesmartfactory)",
   "images": [
     {
       "image": "/media/The-Smart-Factory/deloitte-smart-factory-command-center.jpg",

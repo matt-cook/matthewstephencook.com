@@ -5,7 +5,9 @@
   "thumbnail": "/media/thumbnails/aurora.jpg",
   "tags": [
     "UX Design",
+    "System Design",
     "Software Engineering",
+    "Compliance",
     "zebradog"
   ],
   "mediaColumns": 7,
@@ -16,7 +18,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Interactive Lobby Exhibits**\n*Location*: Milwaukee, Wisconsin\n*Client*: Aurora St. Luke’s Medical Center\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [Software Engineering](/software-engineering/)\n*Technology*:\nGoogle Polymer, Drupal 8",
+  "body": "## Interactive Lobby Exhibits\n\n*Milwaukee, Wisconsin*\n**Client:** Aurora St. Luke’s Medical Center\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/), [Compliance](/compliance/)\n**Technology:** Google Polymer, Drupal 8",
   "images": [
     {
       "image": "/media/Interactive-Lobby-Exhibits/IMG_1741.jpg",

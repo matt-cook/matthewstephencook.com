@@ -76,6 +76,7 @@ export function documentHtml({ site, projects, project, filter, notFound = false
     </article>${project.relatedProjects ? `<div class="related-projects">${thumbnails(projects.filter(p => p.slug !== project.slug && /\]\(\/ZEBRADOG\/\)/.test(p.body)), base)}</div>` : ''}`;
   } else content = thumbnails(filter ? projects.filter(p => (p.tags || []).some(t => tagSlug(t) === filter)) : projects, base);
   const title = project ? `${project.title} - ${site.title}` : site.title;
+  const description = project ? project.body.replace(/^#{1,6}\s+/gm, '').replace(/[*\[\]]/g, '').split('\n').filter(line => line.trim()).slice(0, 3).join(' ').slice(0, 190) : site.description;
   const route = project?.slug || filter || '';
   const canonical = `${siteUrl.replace(/\/$/, '')}/${route ? `${route}/` : ''}`;
   return `<!doctype html>
@@ -84,7 +85,7 @@ export function documentHtml({ site, projects, project, filter, notFound = false
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
-  <meta name="description" content="${escapeHtml(project ? project.body.replace(/[*\[\]]/g, '').split('\n').slice(0, 3).join(' ').slice(0, 190) : site.description)}">
+  <meta name="description" content="${escapeHtml(description)}">
   ${notFound ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${escapeHtml(canonical)}">`}
   <link rel="icon" href="${base}favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">

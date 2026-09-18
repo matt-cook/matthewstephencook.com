@@ -6,7 +6,9 @@
   "tags": [
     "UX Design",
     "UI Design",
+    "System Design",
     "Software Engineering",
+    "Compliance",
     "zebradog"
   ],
   "mediaColumns": 6,
@@ -17,7 +19,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Foundation Kiosk**\n*Location*: Madison, Wisconsin\n*Client*: St. Mary’s Hospital\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)",
+  "body": "## Foundation Kiosk\n\n*Madison, Wisconsin*\n**Client:** St. Mary’s Hospital\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/), [Compliance](/compliance/)",
   "images": [
     {
       "image": "/media/St-Mary-s-Hospital-Foundation-Kiosk/DonorDetail.jpg",

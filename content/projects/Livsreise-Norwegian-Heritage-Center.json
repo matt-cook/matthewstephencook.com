@@ -6,6 +6,7 @@
   "tags": [
     "UI Design",
     "UX Design",
+    "System Design",
     "Software Engineering",
     "zebradog"
   ],
@@ -17,7 +18,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "*Project*: **Livsreise Norwegian Heritage Center**\n*Location*: Stoughton, Wisconsin\n*Client*: The Bryant Foundation\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/), Hardware Design\n*Technology*:\nPlanar Mosaic, Google Polymer, Node.js, Arduino, Drupal 7\n*Awards*: 2016 DSE Apex Award - Immersive Environment - Bronze",
+  "body": "## Livsreise Norwegian Heritage Center\n\n*Stoughton, Wisconsin*\n**Client:** The Bryant Foundation\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/), Hardware Design\n**Technology:** Planar Mosaic, Google Polymer, Node.js, Arduino, Drupal 7\n**Awards:** 2016 DSE Apex Award - Immersive Environment - Bronze",
   "images": [
     {
       "image": "/media/Livsreise-Norwegian-Heritage-Center/10.jpg",

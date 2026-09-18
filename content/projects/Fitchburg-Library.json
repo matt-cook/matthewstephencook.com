@@ -6,6 +6,7 @@
   "tags": [
     "UX Design",
     "UI Design",
+    "System Design",
     "Software Engineering",
     "zebradog"
   ],
@@ -17,7 +18,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Interactive Donor Display**\n*Location*: Fitchburg, Wisconsin\n*Client*: Fitchburg Public Library\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)",
+  "body": "## Interactive Donor Display\n\n*Fitchburg, Wisconsin*\n**Client:** Fitchburg Public Library\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)",
   "images": [
     {
       "image": "/media/Fitchburg-Library/FitchLibFNL-26.jpg",

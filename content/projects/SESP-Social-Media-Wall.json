@@ -6,6 +6,7 @@
   "tags": [
     "UX Design",
     "UI Design",
+    "System Design",
     "Software Engineering"
   ],
   "mediaColumns": 6,
@@ -16,7 +17,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **SESP Social Media Wall**\n*Location*: Evanston, Illinois\n*Client*: Northwestern University\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)\n*Technology*:\nMicrosoft Kinect, openFrameworks, Quartz Composer, Javascript, Drupal 7",
+  "body": "## SESP Social Media Wall\n\n*Evanston, Illinois*\n**Client:** Northwestern University\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)\n**Technology:** Microsoft Kinect, openFrameworks, Quartz Composer, Javascript, Drupal 7",
   "images": [
     {
       "image": "/media/SESP-Social-Media-Wall/DSC_0056.jpeg",

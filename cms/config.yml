@@ -47,10 +47,8 @@ collections:
       - {label: UI Design, field: tags, pattern: UI Design}
       - {label: Software Engineering, field: tags, pattern: Software Engineering}
       - {label: System Design, field: tags, pattern: System Design}
-      - {label: Front-end Engineering, field: tags, pattern: Front-end Engineering}
-      - {label: Cloud Engineering, field: tags, pattern: Cloud Engineering}
-      - {label: Compliance Review, field: tags, pattern: Compliance Review}
-      - {label: AI Pipeline Engineering, field: tags, pattern: AI Pipeline Engineering}
+      - {label: Compliance, field: tags, pattern: Compliance}
+      - {label: AI/ML Platform Engineering, field: tags, pattern: AI/ML Platform Engineering}
     fields:
       - {label: Title, name: title, widget: string}
       - label: URL slug
@@ -73,7 +71,7 @@ collections:
           - {label: Dark, value: dark}
           - {label: Light, value: light}
       - {label: Responsibility tags, name: tags, widget: list, default: [], required: false}
-      - {label: Project details, name: body, widget: markdown, modes: [rich_text, raw], hint: 'Italic labels, bold project names, and linked responsibilities match the original. Use a line break between fields.'}
+      - {label: Project details, name: body, widget: markdown, modes: [rich_text, raw], hint: 'Use Heading 2 for the project name, an italic location line, and bold field labels. Keep each label and its value on the same line, with a line break between fields.'}
       - {label: Gallery width out of 12, name: mediaColumns, widget: number, value_type: int, min: 1, max: 11, default: 7}
       - {label: Column gap, name: columnGap, widget: number, value_type: float, min: 0, default: 1.5}
       - label: Gallery layout

@@ -40,6 +40,8 @@ main { padding: 0 1.2rem; }
 .project { display: grid; grid-template-columns: minmax(0, calc((100% + var(--column-gap)) * var(--media-columns) / 12 - var(--column-gap))) minmax(0, 1fr); gap: var(--column-gap); align-items: start; }
 .project.has-trailing-break { padding-bottom: 2.6rem; }
 .project-media, .project-details { min-width: 0; }
+.project-details { font-size: 1.5rem; }
+.project-details h2 { margin: 0; font-size: 1.5em; line-height: inherit; }
 .project-details p { margin: 0; }
 .project-details p + p { margin-top: 1.3em; }
 .project-details a { text-decoration-thickness: 1px; text-underline-offset: 2px; overflow-wrap: anywhere; }
@@ -84,7 +86,6 @@ main { padding: 0 1.2rem; }
   .page-project main { padding-top: .5rem; }
   .thumbnails { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project { grid-template-columns: minmax(0, 1fr); }
-  .project-details { font-size: max(2rem, 16px); }
   .gallery-rows, .gallery-row, .gallery-columns, .gallery-column { gap: 1rem; }
 }
 @media (hover: none) {

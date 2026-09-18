@@ -6,6 +6,7 @@
   "tags": [
     "UI Design",
     "UX Design",
+    "System Design",
     "Software Engineering",
     "zebradog"
   ],
@@ -17,7 +18,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "*Project*: **Hall Arts Media Wall**\n*Location*: Dallas, Texas\n*Client*: The Hall Group\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)\n*Technology*:\nWebGL, Drupal 8, Node.js, DMX",
+  "body": "## Hall Arts Media Wall\n\n*Dallas, Texas*\n**Client:** The Hall Group\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)\n**Technology:** WebGL, Drupal 8, Node.js, DMX",
   "images": [
     {
       "image": "/media/Hall-Arts-Media-Wall/IMG_20160513_115356.jpg",

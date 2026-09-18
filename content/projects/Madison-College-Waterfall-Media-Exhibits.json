@@ -6,6 +6,7 @@
   "tags": [
     "UX Design",
     "UI Design",
+    "System Design",
     "Software Engineering",
     "zebradog"
   ],
@@ -17,7 +18,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Project*: **Madison College Waterfall & Media Exhibits**\n*Location*: Madison, Wisconsin\n*Client*: Madison Area Technical College\n*Studio*: [ZEBRADOG](/ZEBRADOG/)\n*Role*: Lead Digital Developer/Designer\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [Software Engineering](/software-engineering/)\n*Technology*:\nTraxon, Javascript, Drupal 7",
+  "body": "## Madison College Waterfall & Media Exhibits\n\n*Madison, Wisconsin*\n**Client:** Madison Area Technical College\n**Studio:** [ZEBRADOG](/ZEBRADOG/)\n**Role:** Lead Digital Developer/Designer\n**Responsibilities:** [UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Software Engineering](/software-engineering/)\n**Technology:** Traxon, Javascript, Drupal 7",
   "images": [
     {
       "image": "/media/Madison-College-Waterfall-Media-Exhibits/Madison-College-Digital-Waterfall_0.png",
