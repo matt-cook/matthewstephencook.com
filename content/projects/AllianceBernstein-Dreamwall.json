@@ -5,6 +5,8 @@
   "thumbnail": "/media/AllianceBernstein-Dreamwall/alliancebernstein-dreamwall-lounge.webp",
   "thumbnailLogo": "/media/AllianceBernstein-Dreamwall/alliancebernstein-dreamwall-logo.svg",
   "thumbnailLogoTone": "light",
+  "thumbnailOverlayColor": "#1E9BD7",
+  "thumbnailPhotoBrightness": 1.215,
   "tags": [
     "System Design",
     "Software Engineering"

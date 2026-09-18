@@ -61,6 +61,8 @@ collections:
       - {label: Homepage thumbnail, name: thumbnail, widget: image}
       - {label: Thumbnail logo, name: thumbnailLogo, widget: image, required: false, default: ''}
       - {label: Thumbnail logo on hover, name: thumbnailLogoHover, widget: image, required: false, default: '', hint: 'Optional alternate logo shown on hover and keyboard focus.'}
+      - {label: Thumbnail photo tint, name: thumbnailOverlayColor, widget: string, required: false, default: '', pattern: ['^(#[0-9a-fA-F]{6})?$', 'Use a six-digit hex color, such as #D52B1E.'], hint: 'Optional brand color for a subtle 10% photo tint beneath the logo.'}
+      - {label: Thumbnail photo brightness, name: thumbnailPhotoBrightness, widget: number, value_type: float, required: false, default: 1.5, min: 0, max: 3, hint: 'For thumbnails with a logo: 1.5 is the standard brightness; lower values darken only the photo.'}
       - label: Thumbnail logo tone
         name: thumbnailLogoTone
         widget: select

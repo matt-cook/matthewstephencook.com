@@ -23,10 +23,24 @@ function thumbnailLogo(project, base, index) {
     + (project.thumbnailLogoHover ? logo(project.thumbnailLogoHover, ' thumb-logo--hover') : '');
 }
 
+function thumbnailImageStyle(project) {
+  const styles = [];
+  const color = project.thumbnailOverlayColor;
+  if (/^#[0-9a-f]{6}$/i.test(color || '')) {
+    const rgb = color.slice(1).match(/.{2}/g).map(channel => parseInt(channel, 16)).join(' ');
+    styles.push(`--thumb-overlay-color:rgb(${rgb} / .1)`);
+  }
+  const brightness = project.thumbnailPhotoBrightness;
+  if (typeof brightness === 'number' && Number.isFinite(brightness) && brightness >= 0 && brightness <= 3) {
+    styles.push(`--thumb-photo-brightness:${brightness}`);
+  }
+  return styles.length ? ` style="${styles.join(';')}"` : '';
+}
+
 export function thumbnails(projects, base) {
   return `<div class="thumbnails" aria-label="Projects">${projects.map((p, index) => `
     <a class="thumbnail${p.thumbnailLogo ? ` thumbnail--branded${p.thumbnailLogoTone === 'light' ? ' thumbnail--light-logo' : ''}` : ''}" href="${pagePath(p.slug, base)}" aria-label="${escapeHtml(p.title)}">
-      <div class="thumb-image"><img src="${assetPath(p.thumbnail, base)}" alt="" width="1136" height="640" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async">${thumbnailLogo(p, base, index)}</div>
+      <div class="thumb-image"${thumbnailImageStyle(p)}><img src="${assetPath(p.thumbnail, base)}" alt="" width="1136" height="640" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async">${thumbnailLogo(p, base, index)}</div>
       <span class="thumb-title"><span>${escapeHtml(p.title)}</span></span>
     </a>`).join('')}</div>`;
 }

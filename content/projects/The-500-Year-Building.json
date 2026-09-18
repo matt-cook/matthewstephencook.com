@@ -5,6 +5,8 @@
   "thumbnail": "/media/The-500-Year-Building/500-year-building-exhibition-room.jpg",
   "thumbnailLogo": "/media/The-500-Year-Building/500-year-building-biennale-logo.svg",
   "thumbnailLogoTone": "light",
+  "thumbnailOverlayColor": "#D21C2D",
+  "thumbnailPhotoBrightness": 1.35,
   "tags": [
     "UX Design",
     "UI Design",

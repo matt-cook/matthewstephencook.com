@@ -6,6 +6,8 @@
   "thumbnailLogo": "/media/The-Smart-Factory/deloitte-smart-factory-logo.svg",
   "thumbnailLogoHover": "/media/The-Smart-Factory/deloitte-smart-factory-logo-hover.svg",
   "thumbnailLogoTone": "light",
+  "thumbnailOverlayColor": "#86BC25",
+  "thumbnailPhotoBrightness": 1.35,
   "tags": [
     "System Design",
     "Front-end Engineering",
