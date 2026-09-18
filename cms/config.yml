@@ -60,6 +60,7 @@ collections:
       - {label: Display order, name: order, widget: number, value_type: int, min: 1, default: 21}
       - {label: Homepage thumbnail, name: thumbnail, widget: image}
       - {label: Thumbnail logo, name: thumbnailLogo, widget: image, required: false, default: ''}
+      - {label: Thumbnail logo on hover, name: thumbnailLogoHover, widget: image, required: false, default: '', hint: 'Optional alternate logo shown on hover and keyboard focus.'}
       - label: Thumbnail logo tone
         name: thumbnailLogoTone
         widget: select

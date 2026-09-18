@@ -1,9 +1,11 @@
 {
   "title": "TurboTax NY Flagship Store",
   "slug": "TurboTax-NY-Flagship-Store",
-  "order": 24,
+  "order": 3,
   "thumbnail": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-exterior.png",
   "thumbnailLogo": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-logo.svg",
+  "thumbnailLogoHover": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-logo-hover.svg",
+  "thumbnailLogoTone": "light",
   "tags": [
     "System Design",
     "Software Engineering"
@@ -41,7 +43,7 @@
       "alt": "TurboTax NY Flagship Store — curved digital display overlooking the Forum lounge",
       "width": 1920,
       "height": 1295,
-      "row": 3,
+      "row": 2,
       "column": 1,
       "caption": ""
     },
@@ -50,7 +52,7 @@
       "alt": "TurboTax NY Flagship Store — on-site software development and testing on the Forum media wall",
       "width": 5712,
       "height": 4284,
-      "row": 4,
+      "row": 3,
       "column": 1,
       "caption": ""
     }

@@ -15,10 +15,18 @@ function richText(text, base) {
   });
 }
 
+function thumbnailLogo(project, base, index) {
+  if (!project.thumbnailLogo) return '';
+  const loading = index < 6 ? 'eager' : 'lazy';
+  const logo = (src, className) => `<img class="thumb-logo${className}" src="${escapeHtml(assetPath(src, base))}" alt="" loading="${loading}" decoding="async">`;
+  return logo(project.thumbnailLogo, project.thumbnailLogoHover ? ' thumb-logo--default' : '')
+    + (project.thumbnailLogoHover ? logo(project.thumbnailLogoHover, ' thumb-logo--hover') : '');
+}
+
 export function thumbnails(projects, base) {
   return `<div class="thumbnails" aria-label="Projects">${projects.map((p, index) => `
     <a class="thumbnail${p.thumbnailLogo ? ` thumbnail--branded${p.thumbnailLogoTone === 'light' ? ' thumbnail--light-logo' : ''}` : ''}" href="${pagePath(p.slug, base)}" aria-label="${escapeHtml(p.title)}">
-      <div class="thumb-image"><img src="${assetPath(p.thumbnail, base)}" alt="" width="1136" height="640" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async">${p.thumbnailLogo ? `<img class="thumb-logo" src="${escapeHtml(assetPath(p.thumbnailLogo, base))}" alt="" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async">` : ''}</div>
+      <div class="thumb-image"><img src="${assetPath(p.thumbnail, base)}" alt="" width="1136" height="640" ${index < 6 ? 'loading="eager"' : 'loading="lazy"'} decoding="async">${thumbnailLogo(p, base, index)}</div>
       <span class="thumb-title"><span>${escapeHtml(p.title)}</span></span>
     </a>`).join('')}</div>`;
 }

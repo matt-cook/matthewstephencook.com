@@ -1,9 +1,11 @@
 {
   "title": "Deloitte Smart Factory",
   "slug": "Deloitte-Smart-Factory",
-  "order": 22,
+  "order": 1,
   "thumbnail": "/media/The-Smart-Factory/deloitte-smart-factory-command-center.jpg",
   "thumbnailLogo": "/media/The-Smart-Factory/deloitte-smart-factory-logo.svg",
+  "thumbnailLogoHover": "/media/The-Smart-Factory/deloitte-smart-factory-logo-hover.svg",
+  "thumbnailLogoTone": "light",
   "tags": [
     "System Design",
     "Front-end Engineering",
@@ -18,7 +20,7 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "*Project*: **The Smart Factory**\n*Location*: Wichita, Kansas\n*Client*: Deloitte US\n*Studio*: Gensler\n*Role*: Creative Technology Lead, Software\n*Responsibilities*:\n[System Design](/system-design/), [Front-end Engineering](/front-end-engineering/), [Cloud Engineering](/cloud-engineering/), [Compliance Review](/compliance-review/)\n*Technology*:\nTypeScript, React, AWS, Pixera, MongoDB\n*Awards*: **Communication Arts**, Interactive Design Competition, Environmental Category, Winner, 2025\n*Case Study*: [The Smart Factory — Gensler](https://dxd.gensler.com/case-studies/thesmartfactory)",
+  "body": "*Project*: **The Smart Factory**\n*Location*: Wichita, Kansas\n*Client*: Deloitte US\n*Studio*: Gensler\n*Role*: Creative Technology Lead, Software\n*Responsibilities*:\n[System Design](/system-design/), [Front-end Engineering](/front-end-engineering/), [Cloud Engineering](/cloud-engineering/), [Compliance Review](/compliance-review/)\n*Technology*:\nTypeScript, React, AWS, Pixera, MongoDB\n*Awards*: Communication Arts, Interactive Design Competition, Environmental Category, Winner, 2025\n*Case Study*: [The Smart Factory — Gensler](https://dxd.gensler.com/case-studies/thesmartfactory)",
   "images": [
     {
       "image": "/media/The-Smart-Factory/deloitte-smart-factory-command-center.jpg",
@@ -43,7 +45,7 @@
       "alt": "The Smart Factory — visitors exploring exhibit stations beside a red manufacturing display wall",
       "width": 900,
       "height": 495,
-      "row": 3,
+      "row": 2,
       "column": 1,
       "caption": ""
     },
@@ -52,7 +54,7 @@
       "alt": "The Smart Factory — visitor interacting with digital exhibits about smart manufacturing",
       "width": 900,
       "height": 506,
-      "row": 4,
+      "row": 3,
       "column": 1,
       "caption": ""
     },
@@ -61,7 +63,7 @@
       "alt": "The Smart Factory — visitors gathered around an interactive station in a blue-lit demonstration room",
       "width": 900,
       "height": 438,
-      "row": 5,
+      "row": 4,
       "column": 1,
       "caption": ""
     },
@@ -70,7 +72,7 @@
       "alt": "The Smart Factory — hands-on exhibit controls for exploring manufacturing technology",
       "width": 900,
       "height": 499,
-      "row": 6,
+      "row": 4,
       "column": 1,
       "caption": ""
     }

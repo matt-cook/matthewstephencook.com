@@ -1,8 +1,8 @@
 {
   "title": "The 500 Year Building - Postcards from the Future",
   "slug": "The-500-Year-Building",
-  "order": 23,
-  "thumbnail": "/media/The-500-Year-Building/500-year-building-posts-from-the-future.jpg",
+  "order": 7,
+  "thumbnail": "/media/The-500-Year-Building/500-year-building-exhibition-room.jpg",
   "thumbnailLogo": "/media/The-500-Year-Building/500-year-building-biennale-logo.svg",
   "thumbnailLogoTone": "light",
   "tags": [
@@ -23,11 +23,20 @@
   "body": "*Project*: **The 500 Year Building - Postcards from the Future**\n*Location*: Venice, Italy\n*Client*: Gensler\n*Studio*: Gensler\n*Role*: Creative Technology Lead, Software\n*Responsibilities*:\n[UX Design](/ux-design/), [UI Design](/ui-design/), [System Design](/system-design/), [Front-end Engineering](/front-end-engineering/), [AI Pipeline Engineering](/ai-pipeline-engineering/)\n*Technology*:\nTypeScript, WebGL, Tauri, Rust, fal.ai, Flux AI, ChatGPT\n*Case Study*: [The 500 Year Building — Gensler](https://www.gensler.com/projects/the-500-year-building)",
   "images": [
     {
+      "image": "/media/The-500-Year-Building/500-year-building-exhibition-room.jpg",
+      "alt": "The 500 Year Building — visitors exploring immersive projections and digital exhibits in Venice",
+      "width": 1200,
+      "height": 800,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
       "image": "/media/The-500-Year-Building/500-year-building-posts-from-the-future.jpg",
       "alt": "The 500 Year Building — visitor viewing a personalized postcard on the Posts from the Future display",
       "width": 799,
       "height": 533,
-      "row": 1,
+      "row": 2,
       "column": 1,
       "caption": ""
     },
@@ -46,15 +55,6 @@
       "width": 799,
       "height": 533,
       "row": 3,
-      "column": 1,
-      "caption": ""
-    },
-    {
-      "image": "/media/The-500-Year-Building/500-year-building-exhibition-room.jpg",
-      "alt": "The 500 Year Building — visitors exploring immersive projections and digital exhibits in Venice",
-      "width": 1200,
-      "height": 800,
-      "row": 4,
       "column": 1,
       "caption": ""
     }
