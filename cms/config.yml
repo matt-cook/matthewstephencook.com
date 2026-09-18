@@ -47,6 +47,9 @@ collections:
       - {label: UI Design, field: tags, pattern: UI Design}
       - {label: Software Engineering, field: tags, pattern: Software Engineering}
       - {label: System Design, field: tags, pattern: System Design}
+      - {label: Front-end Engineering, field: tags, pattern: Front-end Engineering}
+      - {label: Cloud Engineering, field: tags, pattern: Cloud Engineering}
+      - {label: Compliance Review, field: tags, pattern: Compliance Review}
     fields:
       - {label: Title, name: title, widget: string}
       - label: URL slug

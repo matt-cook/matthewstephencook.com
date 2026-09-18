@@ -1,0 +1,78 @@
+{
+  "title": "The Smart Factory",
+  "slug": "The-Smart-Factory",
+  "order": 22,
+  "thumbnail": "/media/The-Smart-Factory/deloitte-smart-factory-command-center.jpg",
+  "thumbnailLogo": "/media/The-Smart-Factory/deloitte-smart-factory-logo.svg",
+  "tags": [
+    "System Design",
+    "Front-end Engineering",
+    "Cloud Engineering",
+    "Compliance Review"
+  ],
+  "mediaColumns": 7,
+  "columnGap": 1.5,
+  "galleryLayout": "rows",
+  "galleryColumns": 1,
+  "galleryGap": 1.5,
+  "galleryNote": "",
+  "relatedProjects": false,
+  "trailingBreak": true,
+  "body": "*Project*: **The Smart Factory**\n*Location*: Wichita, Kansas\n*Client*: Deloitte US\n*Studio*: Gensler\n*Role*: Creative Technology Lead, Software\n*Responsibilities*:\n[System Design](/system-design/), [Front-end Engineering](/front-end-engineering/), [Cloud Engineering](/cloud-engineering/), [Compliance Review](/compliance-review/)\n*Technology*:\nTypeScript, React, AWS, Pixera, MongoDB\n*Awards*: **Communication Arts**, Interactive Design Competition, Environmental Category, Winner, 2025\n*Case Study*: [The Smart Factory — Gensler](https://dxd.gensler.com/case-studies/thesmartfactory)",
+  "images": [
+    {
+      "image": "/media/The-Smart-Factory/deloitte-smart-factory-command-center.jpg",
+      "alt": "The Smart Factory — visitors viewing production and cybersecurity dashboards in the command center",
+      "width": 900,
+      "height": 506,
+      "row": 1,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/The-Smart-Factory/deloitte-smart-factory-interactive-table.jpg",
+      "alt": "The Smart Factory — interactive tabletop illustrating a connected manufacturing process",
+      "width": 900,
+      "height": 463,
+      "row": 2,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/The-Smart-Factory/deloitte-smart-factory-experience-center.jpg",
+      "alt": "The Smart Factory — visitors exploring exhibit stations beside a red manufacturing display wall",
+      "width": 900,
+      "height": 495,
+      "row": 3,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/The-Smart-Factory/deloitte-smart-factory-digital-exhibits.jpg",
+      "alt": "The Smart Factory — visitor interacting with digital exhibits about smart manufacturing",
+      "width": 900,
+      "height": 506,
+      "row": 4,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/The-Smart-Factory/deloitte-smart-factory-immersive-demonstration.jpg",
+      "alt": "The Smart Factory — visitors gathered around an interactive station in a blue-lit demonstration room",
+      "width": 900,
+      "height": 438,
+      "row": 5,
+      "column": 1,
+      "caption": ""
+    },
+    {
+      "image": "/media/The-Smart-Factory/deloitte-smart-factory-hands-on-controls.jpg",
+      "alt": "The Smart Factory — hands-on exhibit controls for exploring manufacturing technology",
+      "width": 900,
+      "height": 499,
+      "row": 6,
+      "column": 1,
+      "caption": ""
+    }
+  ]
+}
