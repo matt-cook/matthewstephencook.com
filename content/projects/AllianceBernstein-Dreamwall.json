@@ -9,7 +9,8 @@
   "thumbnailPhotoBrightness": 1.215,
   "tags": [
     "System Design",
-    "Software Engineering"
+    "Software Engineering",
+    "AI/ML Platform Engineering"
   ],
   "mediaColumns": 7,
   "columnGap": 1.5,
@@ -19,7 +20,7 @@
   "galleryNote": "<small>Photo copyright Magda Biernat</small>",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "## AllianceBernstein Dreamwall\n\n*New York, New York*\n**Client:** AllianceBernstein\n**Studio:** Gensler\n**Role:** Creative Technology Lead, Software\n**Responsibilities:** [System Design](/system-design/), [Software Engineering](/software-engineering/)\n**Technology:** TouchDesigner, StabilityAI, Node.js, MongoDB\n**Awards:** 2025 NYCxDESIGN Awards Honoree\n**Case Study:** [Dreamwall — Gensler](https://dxd.gensler.com/case-studies/dreamwall)",
+  "body": "## AllianceBernstein Dreamwall\n\n*New York, New York*\n**Client:** AllianceBernstein\n**Studio:** Gensler\n**Role:** Creative Technology Lead, Software\n**Responsibilities:** [System Design](/system-design/), [Software Engineering](/software-engineering/), [AI/ML Platform Engineering](/ai-ml-platform-engineering/)\n**Technology:** TouchDesigner, StabilityAI, Node.js, MongoDB\n**Awards:** 2025 NYCxDESIGN Awards Honoree\n**Case Study:** [Dreamwall — Gensler](https://dxd.gensler.com/case-studies/dreamwall)",
   "images": [
     {
       "image": "/media/AllianceBernstein-Dreamwall/alliancebernstein-dreamwall-lounge.webp",
