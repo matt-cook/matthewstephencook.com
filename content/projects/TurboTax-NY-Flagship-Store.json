@@ -1,6 +1,6 @@
 {
-  "title": "TurboTax SoHo Flagship Store",
-  "slug": "TurboTax-SoHo-Flagship-Store",
+  "title": "TurboTax NYC Flagship Store",
+  "slug": "TurboTax-NYC-Flagship-Store",
   "order": 5,
   "thumbnail": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-exterior.png",
   "thumbnailLogo": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-logo.svg",
@@ -20,11 +20,11 @@
   "galleryNote": "<small>Photo copyright Ryan Gobuty</small>",
   "relatedProjects": false,
   "trailingBreak": true,
-  "body": "## TurboTax NY Flagship Store\n\n*New York, New York*\n**Client:** Intuit\n**Studio:** Gensler\n**Role:** Creative Technology Lead, Software\n**Responsibilities:** [System Design](/system-design/), [Software Engineering](/software-engineering/), [Compliance](/compliance/)\n**Technology:** TypeScript, Payload CMS, BrightSign, Unity, React\n**Press Release:** [TurboTax NYC Flagship — Intuit](https://investors.intuit.com/news-events/press-releases/detail/1294/intuit-turbotax-opens-nyc-flagship-uniting-ai-and-human-expertise-to-reinvent-in-person-tax-filing-nationwide)",
+  "body": "## TurboTax NYC Flagship Store\n\n*New York, New York*\n**Client:** Intuit\n**Studio:** Gensler\n**Role:** Creative Technology Lead, Software\n**Responsibilities:** [System Design](/system-design/), [Software Engineering](/software-engineering/), [Compliance](/compliance/)\n**Technology:** TypeScript, Payload CMS, BrightSign, Unity, React\n**Press Release:** [TurboTax NYC Flagship — Intuit](https://investors.intuit.com/news-events/press-releases/detail/1294/intuit-turbotax-opens-nyc-flagship-uniting-ai-and-human-expertise-to-reinvent-in-person-tax-filing-nationwide)",
   "images": [
     {
       "image": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-exterior.png",
-      "alt": "TurboTax NY Flagship Store — illuminated SoHo storefront at 463 Broadway at dusk",
+      "alt": "TurboTax NYC Flagship Store — illuminated SoHo storefront at 463 Broadway at dusk",
       "width": 1920,
       "height": 1334,
       "row": 1,
@@ -33,7 +33,7 @@
     },
     {
       "image": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-reset-suite.png",
-      "alt": "TurboTax NY Flagship Store — visitor relaxing in the Reset Suite beneath a glowing pink canopy",
+      "alt": "TurboTax NYC Flagship Store — visitor relaxing in the Reset Suite beneath a glowing pink canopy",
       "width": 1920,
       "height": 1165,
       "row": 2,
@@ -42,7 +42,7 @@
     },
     {
       "image": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-forum-display.png",
-      "alt": "TurboTax NY Flagship Store — curved digital display overlooking the Forum lounge",
+      "alt": "TurboTax NYC Flagship Store — curved digital display overlooking the Forum lounge",
       "width": 1920,
       "height": 1295,
       "row": 2,
@@ -51,7 +51,7 @@
     },
     {
       "image": "/media/TurboTax-NY-Flagship-Store/turbotax-ny-flagship-store-media-wall-development.jpg",
-      "alt": "TurboTax NY Flagship Store — on-site software development and testing on the Forum media wall",
+      "alt": "TurboTax NYC Flagship Store — on-site software development and testing on the Forum media wall",
       "width": 5712,
       "height": 4284,
       "row": 3,
