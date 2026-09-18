@@ -1,6 +1,6 @@
 {
-  "title": "The Cook Company",
-  "slug": "The-Cook-Company",
+  "title": "Cook Creative Technology",
+  "slug": "Cook",
   "order": 19,
   "thumbnail": "/media/thumbnails/cook-thumb.jpg",
   "tags": [
@@ -17,11 +17,11 @@
   "galleryNote": "",
   "relatedProjects": false,
   "trailingBreak": false,
-  "body": "*Studio*: **The Cook Company**\n*URL*: [https://cook.company](https://cook.company)\n*Year*: 2016 - Present\n*Role*: Owner\n*Responsibilities*: Development and support of the [Kiosk application](/Kiosk-Application/) as well as contract work for a wide variety of digital experiences.",
+  "body": "*Studio*: **Cook**\n*URL*: [https://cook.company](https://cook.company)\n*Year*: 2016 - Present\n*Role*: Principal\n*Responsibilities*: Development and support of the [Kiosk application](/Kiosk-Application/) as well as contract work for a wide variety of digital experiences.",
   "images": [
     {
       "image": "/media/The-Cook-Company/IMG_20181127_171113.jpg",
-      "alt": "The Cook Company — image 1",
+      "alt": "Cook — image 1",
       "width": 4032,
       "height": 3024,
       "row": 1,
@@ -30,7 +30,7 @@
     },
     {
       "image": "/media/The-Cook-Company/IMG_20190328_162744.jpg",
-      "alt": "The Cook Company — image 2",
+      "alt": "Cook — image 2",
       "width": 4032,
       "height": 3024,
       "row": 2,
@@ -39,7 +39,7 @@
     },
     {
       "image": "/media/The-Cook-Company/IMG_20190709_111441.jpg",
-      "alt": "The Cook Company — image 3",
+      "alt": "Cook — image 3",
       "width": 4032,
       "height": 3024,
       "row": 2,
