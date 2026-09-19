@@ -80,18 +80,14 @@ main { padding: 0 1.2rem; }
 .pswp.controls-idle .pswp__button:focus-visible { opacity: 1; }
 
 @media (max-width: 700px) {
-  .site-header, .site-footer { padding: .5rem; }
-  main { padding: 0 .5rem; }
-  .page-grid main { padding-top: calc(10px + .5rem); }
+  .site-header h1 { background: none; text-align: center; }
+  .site-header a { padding-right: 0; }
   .page-project main { padding-top: .5rem; }
   .thumbnails { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project { grid-template-columns: minmax(0, 1fr); }
   .gallery-rows, .gallery-row, .gallery-columns, .gallery-column { gap: 1rem; }
 }
-@media (max-width: 700px) and (orientation: portrait) {
-  .site-header h1 { background: none; text-align: center; }
-  .site-header a { padding-right: 0; }
-}
+
 /* Double text on landscape phones without changing the layout's rem spacing. */
 @media (max-width: 1000px) and (max-height: 500px) and (orientation: landscape) {
   body, .site-footer { font-size: 4rem; }
