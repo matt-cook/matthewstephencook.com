@@ -88,6 +88,18 @@ main { padding: 0 1.2rem; }
   .project { grid-template-columns: minmax(0, 1fr); }
   .gallery-rows, .gallery-row, .gallery-columns, .gallery-column { gap: 1rem; }
 }
+@media (max-width: 700px) and (orientation: portrait) {
+  .site-header h1 { background: none; text-align: center; }
+  .site-header a { padding-right: 0; }
+}
+/* Double text on landscape phones without changing the layout's rem spacing. */
+@media (max-width: 1000px) and (max-height: 500px) and (orientation: landscape) {
+  body, .site-footer { font-size: 4rem; }
+  .project-details, .thumb-title { font-size: 3rem; }
+  small { font-size: 2.8rem; }
+  .gallery-caption { font-size: 2.6rem; }
+  .pswp__custom-caption { font-size: 3.6rem; }
+}
 @media (hover: none) {
   .thumbnail:hover .thumb-title { opacity: 0; }
 }
