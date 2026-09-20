@@ -66,7 +66,7 @@ For local configuration or a manual deployment, copy `.env.example` to `.env.loc
 
 ## Edit the portfolio
 
-- **Site settings:** header, title, description, email, and GitHub link live in `content/site.json`.
+- **Site settings:** header, title, description, email, LinkedIn, and GitHub links live in `content/site.json`.
 - **Projects:** one JSON file per project in `content/projects/`. Lower display-order numbers appear first. Preserve existing URL slugs to keep incoming links working.
 - **Project details:** Use a level-two heading (`##`) for the project name, an italic location line, and bold field labels with values on the same line. Separate fields with line breaks. Internal links should start at `/`, such as `/ZEBRADOG/`; the build adds the configured Pages base path.
 - **Images:** choose a thumbnail and add or reorder gallery images in Decap. Uploads go into `public/media/uploads/`. Dimensions are read automatically during generation.

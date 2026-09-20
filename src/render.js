@@ -99,7 +99,7 @@ export function documentHtml({ site, projects, project, filter, notFound = false
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header"><h1><a href="${base}">${escapeHtml(site.heading)}</a></h1></header>
   <main id="main">${content}</main>
-  <footer class="site-footer" aria-label="Contact"><a class="icon-link" href="mailto:${escapeHtml(site.email)}" aria-label="Email ${escapeHtml(site.title)}">&#xE000;&#xFE0E;</a><a class="icon-link" href="${escapeHtml(site.github)}" aria-label="${escapeHtml(site.title)} on GitHub">&#xE035;&#xFE0E;</a></footer>
+  <footer class="site-footer" aria-label="Contact"><a class="icon-link" href="mailto:${escapeHtml(site.email)}" aria-label="Email ${escapeHtml(site.title)}">&#xE000;&#xFE0E;</a><a class="icon-link" href="${escapeHtml(site.linkedin)}" aria-label="${escapeHtml(site.title)} on LinkedIn">&#xE005;&#xFE0E;</a><a class="icon-link" href="${escapeHtml(site.github)}" aria-label="${escapeHtml(site.title)} on GitHub">&#xE035;&#xFE0E;</a></footer>
 </body>
 </html>`;
 }
